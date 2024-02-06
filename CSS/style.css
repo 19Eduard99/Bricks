@@ -1,0 +1,716 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*<header class="site-header">*/
+.site-header{
+    background-image: url(../img/header_logo.jpg);
+    background-size: cover;
+    padding-bottom: 100px;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 19px;
+    padding-bottom: 119px;
+}
+.site-logo{
+    color: #FFF;
+    font-family: Inter,sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.nav-header ul{
+    display: flex;
+    padding-top: 8px;
+}
+.nav-header ul li{
+    list-style: none;
+    margin: 0 33px;
+}
+
+
+.nav-header ul li a{
+    color: #FFF;
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.contact{
+    position: relative;
+    padding-top: 8px;
+}
+.contact a{
+    color: #FFF;
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+.contact img{
+    position: absolute;
+    top: 8px;
+    right: 150px;
+}
+
+
+
+
+.bottom-header{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.bottom-header-left{
+    max-width: 538px;
+    margin-left: 18px;
+}
+.bottom-header-left h1{
+    color: #FFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 35px;
+}
+
+.bottom-header-left p{
+    color: #FFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 61px;
+}
+
+.btn{
+    background-color: #FF9A23;
+    padding: 16px 39px;
+    color: #000;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+.bottom-header-right{
+    padding: 49px 55px 35px 39px;
+    max-width: 510px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.40);
+    margin-right: 18px;
+}
+
+.bottom-header-right form h2{
+    color: #FFF;
+    font-family: Montserrat,sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 96.4%;
+    padding-bottom: 23px;
+}
+
+.bottom-header-right form p {
+    color: #FFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96.4%;
+    padding-bottom: 29px;
+}
+.bottom-header-right form input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    padding-left: 24px;
+    border-radius: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.70);
+    background: rgba(0, 0, 0, 0.15);
+}
+.bottom-header-right form input ::placeholder{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96.4%;
+}
+.bottom-header-right form button{
+    display: flex;
+    padding: 12px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 28px;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    position: relative;
+}
+.bottom-header-right form button .arrow-top-right{
+    position: absolute;
+    right: -30px;
+    top: 15px;
+    width: 18px;
+    height: 15px;
+    background: url("../img/Arrow5.svg");
+}
+
+/*<header class="site-header">*/
+
+
+
+
+.triangle {
+    position: absolute;
+    top: -10px;
+    left: 18px;
+    width: 0;
+    height: 0;
+    border-left: 27px solid transparent;
+    border-right: 27px solid transparent;
+    border-top: 28px solid #FF9A23;
+}
+
+
+/*<section class="about-us">*/
+
+.about-us{
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+    padding: 79px 0;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+}
+.about-us-description{
+    margin-left: 18px;
+    max-width: 518px;
+}
+.about-us-description h3{
+    border-bottom: 1px solid #FF9A23;
+    padding-bottom: 22px;
+    width: 101px;
+    color: #FF9A23;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.about-us-description h2{
+    margin: 35px 0;
+    color: #000;
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.about-us-description p{
+    color: #000;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.about-us-video{
+    margin-right: 18px;
+}
+.about-us-video iframe{
+    border: none;
+}
+.about-us-video p{
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+/*<section class="about-us">*/
+
+/*<section class="our-products">*/
+.our-products{
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 90px;
+    background-color: #FFFFFF;
+}
+.products{
+    margin-right: 18px;
+    margin-left: 18px;
+}
+.products h3{
+    border-bottom: 1px solid #FF9A23;
+    padding-bottom: 22px;
+    width: 101px;
+    color: #FF9A23;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.products ul{
+    margin-top: 27px;
+    margin-bottom: 33px;
+    list-style: none;
+    display: flex;
+}
+.products ul li{
+    margin-right: 64px;
+}
+.products ul li a{
+    color: #000;
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.products ul li a:active{
+    font-weight: 700;
+}
+.products ul li a:hover{
+    font-weight: 700;
+}
+.products .product-cards-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product-cards-top .product-card img{
+    padding: 94px 18px 63px;
+    background-color: #F5F5F5;;
+}
+.product-cards-top .product-card{
+    width: 253px;
+    margin-right: 11px;
+}
+
+.product-card h4{
+    margin: 16px 0;
+    color: #000;
+    font-family: Montserrat,sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+.product-card p{
+    margin-bottom: 28px;
+    color: rgba(0, 0, 0, 0.40);
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.product-card a{
+    display: inline-block;
+    margin-bottom: 35px;
+    color: #FF9A23;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+.product-card a::after{
+    content: " ";
+    display: inline-block;
+    width: 25px;
+    height: 14px;
+    margin-left: 18px;
+    background-image: url('../img/Arrow.svg');
+}
+
+.download{
+    margin-top: 55px;
+    text-align: center;
+}
+
+/*<section class="our-products">*/
+
+
+/*<section class="our-works">*/
+.our-works{
+    max-width: 1200px;
+    margin: auto;
+}
+.our-works h3{
+    border-bottom: 1px solid #FF9A23;
+    padding-bottom: 22px;
+    text-align: center;
+    margin: auto;
+    width: 160px;
+    color: #FF9A23;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+
+    /*Слайдер*/
+    .swiper{
+        max-width: 1200px;
+        margin: auto;
+        padding-top: 34px;
+    }
+    .swiper-wrapper{
+        position: unset;
+    }
+    .swiper-pagination-bullet-active{
+        background-color: #FF9A23;
+
+    }
+    .swiper-button-next, .swiper-button-prev{
+        position: unset;
+        width: unset;
+        height: unset;
+        margin-top: unset;
+    }
+
+    .swiper-button-next:after, .swiper-button-prev:after{
+        background: url("../img/Arrow2.svg");
+        font-size: unset;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+        margin-top: 39px;
+        margin-right: 10px;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+        width: unset;
+        margin-right: 68px;
+        margin-left: 68px;
+    }
+    .image-slider{
+        text-align: center;
+    }
+    .swiper-pagination{
+        position: unset;
+    }
+
+    .slide-left{
+        width: 50px;
+        height: 16px;
+        background: url("../img/Arrow2.svg");
+        margin-top: 34px;
+        cursor: pointer;
+    }
+    .slide-right{
+        width: 50px;
+        height: 16px;
+        background: url("../img/Arrow3.svg");
+        margin-top: 34px;
+        cursor: pointer;
+    }
+    .slider-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*Слайдер*/
+/*<section class="our-works">*/
+
+/*<section class="contact-and-deals">*/
+.contact-and-deals{
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 76px;
+    padding-bottom: 19px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-section{
+    margin-left: 18px;
+    width: 100%;
+    max-width: 419px;
+}
+.contact-section form h2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 96.4%;
+    color: #000000;
+    margin-bottom: 23px;
+}
+
+.contact-section form p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 96.4%;
+    color: #000000;
+    margin-bottom: 29px;
+}
+
+.contact-section form input{
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    border-radius: 7px;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 96.4%;
+    color: rgba(0, 0, 0, 0.6);
+    max-width: 417px;
+    width: 100%;
+    height: 40px;
+    display: block;
+    margin-bottom: 15px;
+    padding-left: 24px;
+}
+
+.contact-section form textarea{
+    display: block;
+    max-width: 417px;
+    height: 153px;
+    width: 100%;
+    resize: none;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    border-radius: 7px;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 96.4%;
+    padding: 12px 0 0 24px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.contact-section form button{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+    gap: 10px;
+    margin-top: 18px;
+    background-color: #FFFFFF;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+}
+
+.contact-section form button .arrow-top-right2{
+    position: absolute;
+    right: -30px;
+    top: 15px;
+    width: 18px;
+    height: 15px;
+    background: url("../img/Arrow4.svg");
+}
+.contact-btn{
+    cursor: pointer;
+    width: 116px;
+}
+
+.vertical-line{
+    margin: auto;
+    max-width: 0;
+    height: 364px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.contact-and-deals .deals{
+    margin-right: 18px;
+    margin-top: 8px;
+    max-width: 555px;
+    max-height: 287px;
+    background-image: url("../img/discount.jpg");
+    background-size: cover;
+    padding: 53px 23px 87px 45px;
+    margin-bottom: 71px;
+}
+
+.contact-and-deals .deals p{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+/*<section class="contact-and-deals">*/
+
+/*<footer>*/
+footer{
+    padding-top: 83px;
+    padding-bottom: 41px;
+}
+
+footer .nav-contact-and-map{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+}
+footer .nav-contact-and-map .map{
+    max-width: 510px;
+    max-height: 215px;
+    margin-bottom: 27px;
+}
+
+.nav-contact-and-map nav h3{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.nav-contact-and-map nav ul{
+    list-style: none;
+}
+
+.nav-contact-and-map nav ul li{
+    margin-bottom: 7px;
+}
+.nav-contact-and-map nav ul li a{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.nav-contact-and-map .tel-address .tel-contact h3{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.nav-contact-and-map .tel-address .tel-contact a{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    position: relative;
+    margin-left: 23px;
+}
+.nav-contact-and-map .tel-address .tel-contact p{
+    cursor: pointer;
+    width: 150px;
+    margin-bottom: 2px;
+}
+.nav-contact-and-map .tel-address .tel-contact a::before{
+    content: url('../img/fphone.svg');
+    position: absolute;
+    display: inline-block;
+    left: -25px;
+}
+.nav-contact-and-map .tel-address{
+    max-width: 280px;
+}
+
+.nav-contact-and-map .tel-address address h3{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-top: 27px;
+    margin-bottom: 25px;
+}
+
+.nav-contact-and-map .tel-address address p{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    position: relative;
+    margin-left: 23px;
+}
+.nav-contact-and-map .tel-address address p::before{
+    content: url('../img/location.svg');
+    position: absolute;
+    display: inline-block;
+    left: -25px;
+}
+
+footer .dev{
+    margin-top: 38px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+/*<footer>*/
